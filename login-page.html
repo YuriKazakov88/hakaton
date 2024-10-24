@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-section">
+            <div class="header-section__container">
+                <div class="header-section__logo-block">
+                    <div class="header-section__logo-block__logo">
+                        <svg width="81" height="80" viewBox="0 0 81 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M40.4987 10.4785L66.065 54.7607H14.9324L40.4987 10.4785Z" fill="#4F96E2"/>
+                            <path d="M55.2606 14.4336L55.2606 65.5662L10.9785 39.9999L55.2606 14.4336Z" fill="#33CCD7"/>
+                            <path d="M66.0661 25.2392L40.4998 69.5213L14.9335 25.2392L66.0661 25.2392Z" fill="#3952CA"/>
+                            <path d="M40.8641 34.5327L42.0097 38.0587L45.7172 38.0587L42.7178 40.2379L43.8634 43.7638L40.8641 41.5847L37.8647 43.7638L39.0104 40.2379L36.011 38.0587L39.7184 38.0587L40.8641 34.5327Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="header-section__logo-block__logo-title">
+                        Productivity
+                    </div>
+                </div>
+                <nav class="header-section__nav-block">
+                    <ul>
+                        <li>Обучение</li>
+                        <li>Блог</li>
+                        <li>Помощь</li>
+                    </ul>
+                </nav>
+                <div class="header-section__button-block">
+                    <button class="button">Регистрация</button>
+                    <button class="button button_accent">Вход</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="login-section">
+                <div class="login-section__container container">
+                    <div class="login-section__form-block">
+                        <div class="login-section__form-block__title">
+                            Вход
+                        </div>
+                        <form action="">
+                            <div class="dropdown-item login-section__form-block__item">
+                                <a>
+                                    <span class="__post">Должность</span>
+                                    <svg width="21" height="11" viewBox="0 0 21 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.38906 10.5626L0.5 2.11223L2.72187 -7.77107e-07L10.5 7.39429L18.2781 -9.71211e-08L20.5 2.11223L11.6109 10.5626C11.3163 10.8427 10.9167 11 10.5 11C10.0833 11 9.68373 10.8427 9.38906 10.5626Z" fill="#555555" fill-opacity="0.5"/>
+                                    </svg>
+                                </a>
+                                <div class="dropdown-item__content login-section__form-block__item__content">
+                                    <div class="dropdown-item__content__button" data-post="hr">HR-менеджер</div>
+                                    <div class="dropdown-item__content__button" data-post="admin">Администратор</div>
+                                    <div class="dropdown-item__content__button" data-post="boss">Руководитель</div>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="" class="field-label">
+                                    <input type="text" placeholder="E-mail">
+                                </label>
+                            </div>
+                            <div class="field">
+                                <label for="" class="field-label">
+                                    <input type="password" placeholder="Пароль">
+                                </label>
+                            </div>
+                        </form>
+                        <div class="login-section__form-block__button-block">
+                            <button class="button-form button_login">Войти</button>
+                            <button class="button-form button_register">Зарегистрироваться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+    <script type="module" src="../scripts/app.js"></script>
+</html>
